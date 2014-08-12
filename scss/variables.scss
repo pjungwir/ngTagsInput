@@ -23,11 +23,11 @@ $remove-button-font:                    bold 16px Arial, sans-serif;
 $input-font:                            $tag-font;
 
 // autoComplete
-$suggestion-box-z-index:                999;
-$suggestion-box-width:                  100%;
-$suggestion-box-color:                  #fff;
-$suggestion-box-border:                 1px solid rgba(0, 0, 0, 0.2);
-$suggestion-box-shadow:                 0 5px 10px rgba(0, 0, 0, 0.2);
+$suggestions-z-index:                   999;
+$suggestions-width:                     100%;
+$suggestions-bgcolor:                   #fff;
+$suggestions-border:                    1px solid rgba(0, 0, 0, 0.2);
+$suggestions-border-shadow:             0 5px 10px rgba(0, 0, 0, 0.2);
 
 $suggestion-font:                       16px $base-font-family;
 $suggestion-color:                      #000;
@@ -40,3 +40,22 @@ $suggestion-highlight-color:            $suggestion-color;
 $suggestion-highlight-bgcolor:          $suggestion-bgcolor;
 $suggestion-highlight-color-selected:   $suggestion-color-selected;
 $suggestion-highlight-bgcolor-selected: $suggestion-bgcolor-selected;
+
+// Bootstrap
+$tags-border-bootstrap:                 1px solid #ccc;
+$tags-border-radius-bootstrap:          4px;
+$tags-border-shadow-bootstrap:          inset 0 1px 1px rgba(0, 0, 0, .075);
+$tags-transition-bootstrap:             border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+$tags-outline-border-bootstrap:         1px solid #66afe9;
+$tags-outline-border-shadow-bootstrap:  inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+
+$tag-color-bootstrap:                   #fff;
+$tag-bgcolor-bootstrap:                 #428bca;
+$tag-border-bootstrap:                  1px solid #357ebd;
+$tag-border-radius-bootstrap:           4px;
+
+$tag-color-selected-bootstrap:          #fff;
+$tag-bgcolor-selected-bootstrap:        #d9534f;
+$tag-border-selected-bootstrap:         1px solid #d43f3a;
+
+$suggestions-border-radius-bootstrap:   4px;
